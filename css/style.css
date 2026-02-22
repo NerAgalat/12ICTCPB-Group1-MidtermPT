@@ -537,6 +537,27 @@ body {
   box-shadow: 0 12px 34px rgba(255, 107, 53, 0.22);
 }
 
+.btn-download {
+  display: block;
+  width: fit-content;
+  margin: 24px auto 0;
+  border: 0;
+  background-color: var(--accent-orange);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: 0;
+  padding: 12px 22px;
+  cursor: pointer;
+  box-shadow: var(--shadow-orange);
+  transition: transform var(--transition), box-shadow var(--transition);
+  text-decoration: none;
+}
+
+.btn-download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 34px rgba(255, 107, 53, 0.22);
+}
+
 .myth-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
